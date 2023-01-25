@@ -1,0 +1,275 @@
+:root 
+{
+    --white: #ffffff;
+    --black: #000000;
+    --active: #2196F3;
+    --primary-text: #212121;
+    --gray-bgc: #f5f4fa;
+    --background-dark:#2F303A;
+    --ctcs: rgba(255, 255, 255, 0.6);
+}
+
+body
+{
+    font-family: "Roboto", sans-serif;
+}
+
+img 
+{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  
+}
+
+.header
+{
+    background-color: var(--white);
+}
+
+/* Navigation*/
+.navidiv .link 
+{
+    color: var(--primary-text);
+    font-weight: 500;  
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+/* logo */
+.logo
+{
+    color:var(--active);
+    width: 44px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.header-logo
+{
+    color: var(--black);
+    text-decoration: none;
+    width: 44px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+}
+
+.logo:hover,
+.logo:focus 
+{
+    color: var(--active);
+}
+
+.list 
+{
+    list-style: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+/*address*/
+.address
+{
+    font-style: normal;
+}
+
+.address-list 
+{
+    list-style: none;
+
+}
+
+.address-link 
+{
+    color: var(--basic-white);
+}
+
+.address-link:hover,
+.mail-link:hover,
+.phone-link:hover 
+{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #434455;
+}
+
+.address-link:focus,
+.mail-link:focus,
+.phone-link:focus 
+{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #434455;
+}
+
+.link 
+{
+    color:var(--secondary-text);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:focus 
+{
+    color: var(--active);
+}
+
+/*Main*/
+.effective-desisions 
+{
+    background-color: var(--secondary-text);
+    background: #2E2F42;
+    text-align: justify;
+}
+.effective-title 
+{
+    color: var(--white);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+}
+
+/*button*/
+.button 
+{
+    color: var(--white);
+    background-color: var(--active);
+    border-color: var(--active);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    font-family: inherit;
+    text-decoration: none;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+
+/* button-portfolio */
+.button-portfolio
+{  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;   
+}
+
+li
+{
+    list-style-type: none;
+}
+
+.button:hover,
+.button:focus
+{
+    background-color: var(--active);
+    color: var(--white);
+}
+
+/*advantages*/
+.advantages-title 
+{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: justify;
+}
+
+.advantages-text 
+{
+    color: #434455;
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: justify;
+}
+
+/*what we do*/
+.service-title 
+{
+    color: var(--primary-text);
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: justify;
+}
+
+/*Team*/
+.our-team .picture
+{
+    background-color: var(--gray-bgc);
+    font-size: 16px;
+}
+
+.our-team .item .picture
+{
+    align-items: center;
+}
+
+.team-title 
+{
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: justify;
+    color: var(--primary-text);
+}
+
+.team-name
+{
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.18;
+    color: var(--primary-text);
+}
+
+.function 
+{
+    color: var(--secondary-text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    margin-bottom: 30px;
+}
+
+/*footer*/
+.footer
+{
+    background: #2E2F42;
+    color: #F4F4FD;
+}
+
+.footer .header-logo 
+{
+    color: var(--white);
+}
+
+.footer-text
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
